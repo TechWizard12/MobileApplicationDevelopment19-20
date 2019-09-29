@@ -1,0 +1,602 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8C5EC39823406FF400FE75D0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C5EC39723406FF400FE75D0 /* AppDelegate.swift */; };
+		8C5EC39A23406FF400FE75D0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C5EC39923406FF400FE75D0 /* ViewController.swift */; };
+		8C5EC39D23406FF400FE75D0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8C5EC39B23406FF400FE75D0 /* Main.storyboard */; };
+		8C5EC3A023406FF400FE75D0 /* Centura_FBLA.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8C5EC39E23406FF400FE75D0 /* Centura_FBLA.xcdatamodeld */; };
+		8C5EC3A223406FF500FE75D0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8C5EC3A123406FF500FE75D0 /* Assets.xcassets */; };
+		8C5EC3A523406FF500FE75D0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8C5EC3A323406FF500FE75D0 /* LaunchScreen.storyboard */; };
+		8C5EC3B023406FF500FE75D0 /* Centura_FBLATests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C5EC3AF23406FF500FE75D0 /* Centura_FBLATests.swift */; };
+		8C5EC3BB23406FF500FE75D0 /* Centura_FBLAUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C5EC3BA23406FF500FE75D0 /* Centura_FBLAUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8C5EC3AC23406FF500FE75D0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8C5EC38C23406FF400FE75D0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8C5EC39323406FF400FE75D0;
+			remoteInfo = "Centura FBLA";
+		};
+		8C5EC3B723406FF500FE75D0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8C5EC38C23406FF400FE75D0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8C5EC39323406FF400FE75D0;
+			remoteInfo = "Centura FBLA";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8C5EC39423406FF400FE75D0 /* Centura FBLA.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Centura FBLA.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C5EC39723406FF400FE75D0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8C5EC39923406FF400FE75D0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8C5EC39C23406FF400FE75D0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8C5EC39F23406FF400FE75D0 /* Centura_FBLA.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Centura_FBLA.xcdatamodel; sourceTree = "<group>"; };
+		8C5EC3A123406FF500FE75D0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8C5EC3A423406FF500FE75D0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8C5EC3A623406FF500FE75D0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8C5EC3AB23406FF500FE75D0 /* Centura FBLATests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Centura FBLATests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C5EC3AF23406FF500FE75D0 /* Centura_FBLATests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Centura_FBLATests.swift; sourceTree = "<group>"; };
+		8C5EC3B123406FF500FE75D0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8C5EC3B623406FF500FE75D0 /* Centura FBLAUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Centura FBLAUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C5EC3BA23406FF500FE75D0 /* Centura_FBLAUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Centura_FBLAUITests.swift; sourceTree = "<group>"; };
+		8C5EC3BC23406FF500FE75D0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8C5EC39123406FF400FE75D0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C5EC3A823406FF500FE75D0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C5EC3B323406FF500FE75D0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8C5EC38B23406FF400FE75D0 = {
+			isa = PBXGroup;
+			children = (
+				8C5EC39623406FF400FE75D0 /* Centura FBLA */,
+				8C5EC3AE23406FF500FE75D0 /* Centura FBLATests */,
+				8C5EC3B923406FF500FE75D0 /* Centura FBLAUITests */,
+				8C5EC39523406FF400FE75D0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8C5EC39523406FF400FE75D0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8C5EC39423406FF400FE75D0 /* Centura FBLA.app */,
+				8C5EC3AB23406FF500FE75D0 /* Centura FBLATests.xctest */,
+				8C5EC3B623406FF500FE75D0 /* Centura FBLAUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8C5EC39623406FF400FE75D0 /* Centura FBLA */ = {
+			isa = PBXGroup;
+			children = (
+				8C5EC39723406FF400FE75D0 /* AppDelegate.swift */,
+				8C5EC39923406FF400FE75D0 /* ViewController.swift */,
+				8C5EC39B23406FF400FE75D0 /* Main.storyboard */,
+				8C5EC3A123406FF500FE75D0 /* Assets.xcassets */,
+				8C5EC3A323406FF500FE75D0 /* LaunchScreen.storyboard */,
+				8C5EC3A623406FF500FE75D0 /* Info.plist */,
+				8C5EC39E23406FF400FE75D0 /* Centura_FBLA.xcdatamodeld */,
+			);
+			path = "Centura FBLA";
+			sourceTree = "<group>";
+		};
+		8C5EC3AE23406FF500FE75D0 /* Centura FBLATests */ = {
+			isa = PBXGroup;
+			children = (
+				8C5EC3AF23406FF500FE75D0 /* Centura_FBLATests.swift */,
+				8C5EC3B123406FF500FE75D0 /* Info.plist */,
+			);
+			path = "Centura FBLATests";
+			sourceTree = "<group>";
+		};
+		8C5EC3B923406FF500FE75D0 /* Centura FBLAUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8C5EC3BA23406FF500FE75D0 /* Centura_FBLAUITests.swift */,
+				8C5EC3BC23406FF500FE75D0 /* Info.plist */,
+			);
+			path = "Centura FBLAUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8C5EC39323406FF400FE75D0 /* Centura FBLA */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8C5EC3BF23406FF500FE75D0 /* Build configuration list for PBXNativeTarget "Centura FBLA" */;
+			buildPhases = (
+				8C5EC39023406FF400FE75D0 /* Sources */,
+				8C5EC39123406FF400FE75D0 /* Frameworks */,
+				8C5EC39223406FF400FE75D0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Centura FBLA";
+			productName = "Centura FBLA";
+			productReference = 8C5EC39423406FF400FE75D0 /* Centura FBLA.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8C5EC3AA23406FF500FE75D0 /* Centura FBLATests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8C5EC3C223406FF500FE75D0 /* Build configuration list for PBXNativeTarget "Centura FBLATests" */;
+			buildPhases = (
+				8C5EC3A723406FF500FE75D0 /* Sources */,
+				8C5EC3A823406FF500FE75D0 /* Frameworks */,
+				8C5EC3A923406FF500FE75D0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8C5EC3AD23406FF500FE75D0 /* PBXTargetDependency */,
+			);
+			name = "Centura FBLATests";
+			productName = "Centura FBLATests";
+			productReference = 8C5EC3AB23406FF500FE75D0 /* Centura FBLATests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8C5EC3B523406FF500FE75D0 /* Centura FBLAUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8C5EC3C523406FF500FE75D0 /* Build configuration list for PBXNativeTarget "Centura FBLAUITests" */;
+			buildPhases = (
+				8C5EC3B223406FF500FE75D0 /* Sources */,
+				8C5EC3B323406FF500FE75D0 /* Frameworks */,
+				8C5EC3B423406FF500FE75D0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8C5EC3B823406FF500FE75D0 /* PBXTargetDependency */,
+			);
+			name = "Centura FBLAUITests";
+			productName = "Centura FBLAUITests";
+			productReference = 8C5EC3B623406FF500FE75D0 /* Centura FBLAUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8C5EC38C23406FF400FE75D0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1030;
+				LastUpgradeCheck = 1030;
+				ORGANIZATIONNAME = Colten.Seevers;
+				TargetAttributes = {
+					8C5EC39323406FF400FE75D0 = {
+						CreatedOnToolsVersion = 10.3;
+					};
+					8C5EC3AA23406FF500FE75D0 = {
+						CreatedOnToolsVersion = 10.3;
+						TestTargetID = 8C5EC39323406FF400FE75D0;
+					};
+					8C5EC3B523406FF500FE75D0 = {
+						CreatedOnToolsVersion = 10.3;
+						TestTargetID = 8C5EC39323406FF400FE75D0;
+					};
+				};
+			};
+			buildConfigurationList = 8C5EC38F23406FF400FE75D0 /* Build configuration list for PBXProject "Centura FBLA" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8C5EC38B23406FF400FE75D0;
+			productRefGroup = 8C5EC39523406FF400FE75D0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8C5EC39323406FF400FE75D0 /* Centura FBLA */,
+				8C5EC3AA23406FF500FE75D0 /* Centura FBLATests */,
+				8C5EC3B523406FF500FE75D0 /* Centura FBLAUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8C5EC39223406FF400FE75D0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C5EC3A523406FF500FE75D0 /* LaunchScreen.storyboard in Resources */,
+				8C5EC3A223406FF500FE75D0 /* Assets.xcassets in Resources */,
+				8C5EC39D23406FF400FE75D0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C5EC3A923406FF500FE75D0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C5EC3B423406FF500FE75D0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8C5EC39023406FF400FE75D0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C5EC3A023406FF400FE75D0 /* Centura_FBLA.xcdatamodeld in Sources */,
+				8C5EC39A23406FF400FE75D0 /* ViewController.swift in Sources */,
+				8C5EC39823406FF400FE75D0 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C5EC3A723406FF500FE75D0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C5EC3B023406FF500FE75D0 /* Centura_FBLATests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C5EC3B223406FF500FE75D0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C5EC3BB23406FF500FE75D0 /* Centura_FBLAUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8C5EC3AD23406FF500FE75D0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8C5EC39323406FF400FE75D0 /* Centura FBLA */;
+			targetProxy = 8C5EC3AC23406FF500FE75D0 /* PBXContainerItemProxy */;
+		};
+		8C5EC3B823406FF500FE75D0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8C5EC39323406FF400FE75D0 /* Centura FBLA */;
+			targetProxy = 8C5EC3B723406FF500FE75D0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8C5EC39B23406FF400FE75D0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8C5EC39C23406FF400FE75D0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8C5EC3A323406FF500FE75D0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8C5EC3A423406FF500FE75D0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8C5EC3BD23406FF500FE75D0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8C5EC3BE23406FF500FE75D0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8C5EC3C023406FF500FE75D0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Centura FBLA/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Centura.Centura-FBLA";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8C5EC3C123406FF500FE75D0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Centura FBLA/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Centura.Centura-FBLA";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		8C5EC3C323406FF500FE75D0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Centura FBLATests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Centura.Centura-FBLATests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Centura FBLA.app/Centura FBLA";
+			};
+			name = Debug;
+		};
+		8C5EC3C423406FF500FE75D0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Centura FBLATests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Centura.Centura-FBLATests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Centura FBLA.app/Centura FBLA";
+			};
+			name = Release;
+		};
+		8C5EC3C623406FF500FE75D0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Centura FBLAUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Centura.Centura-FBLAUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Centura FBLA";
+			};
+			name = Debug;
+		};
+		8C5EC3C723406FF500FE75D0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Centura FBLAUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Centura.Centura-FBLAUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Centura FBLA";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8C5EC38F23406FF400FE75D0 /* Build configuration list for PBXProject "Centura FBLA" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C5EC3BD23406FF500FE75D0 /* Debug */,
+				8C5EC3BE23406FF500FE75D0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8C5EC3BF23406FF500FE75D0 /* Build configuration list for PBXNativeTarget "Centura FBLA" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C5EC3C023406FF500FE75D0 /* Debug */,
+				8C5EC3C123406FF500FE75D0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8C5EC3C223406FF500FE75D0 /* Build configuration list for PBXNativeTarget "Centura FBLATests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C5EC3C323406FF500FE75D0 /* Debug */,
+				8C5EC3C423406FF500FE75D0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8C5EC3C523406FF500FE75D0 /* Build configuration list for PBXNativeTarget "Centura FBLAUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C5EC3C623406FF500FE75D0 /* Debug */,
+				8C5EC3C723406FF500FE75D0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		8C5EC39E23406FF400FE75D0 /* Centura_FBLA.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				8C5EC39F23406FF400FE75D0 /* Centura_FBLA.xcdatamodel */,
+			);
+			currentVersion = 8C5EC39F23406FF400FE75D0 /* Centura_FBLA.xcdatamodel */;
+			path = Centura_FBLA.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 8C5EC38C23406FF400FE75D0 /* Project object */;
+}
