@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8C04564223450E4800719465 /* StartingScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C04564123450E4800719465 /* StartingScreen.swift */; };
+		8C045648234510B900719465 /* MainScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C045647234510B900719465 /* MainScreen.swift */; };
 		8C5EC39823406FF400FE75D0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C5EC39723406FF400FE75D0 /* AppDelegate.swift */; };
 		8C5EC39A23406FF400FE75D0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C5EC39923406FF400FE75D0 /* ViewController.swift */; };
 		8C5EC39D23406FF400FE75D0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8C5EC39B23406FF400FE75D0 /* Main.storyboard */; };
@@ -15,6 +17,7 @@
 		8C5EC3A523406FF500FE75D0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8C5EC3A323406FF500FE75D0 /* LaunchScreen.storyboard */; };
 		8C5EC3B023406FF500FE75D0 /* Centura_FBLATests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C5EC3AF23406FF500FE75D0 /* Centura_FBLATests.swift */; };
 		8C5EC3BB23406FF500FE75D0 /* Centura_FBLAUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C5EC3BA23406FF500FE75D0 /* Centura_FBLAUITests.swift */; };
+		8C5EC3C923428B4A00FE75D0 /* Officers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C5EC3C823428B4A00FE75D0 /* Officers.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +38,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8C04564123450E4800719465 /* StartingScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartingScreen.swift; sourceTree = "<group>"; };
+		8C045647234510B900719465 /* MainScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainScreen.swift; sourceTree = "<group>"; };
 		8C5EC39423406FF400FE75D0 /* Centura FBLA.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Centura FBLA.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8C5EC39723406FF400FE75D0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8C5EC39923406FF400FE75D0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -49,6 +54,7 @@
 		8C5EC3B623406FF500FE75D0 /* Centura FBLAUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Centura FBLAUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8C5EC3BA23406FF500FE75D0 /* Centura_FBLAUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Centura_FBLAUITests.swift; sourceTree = "<group>"; };
 		8C5EC3BC23406FF500FE75D0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8C5EC3C823428B4A00FE75D0 /* Officers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Officers.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +108,9 @@
 				8C5EC39723406FF400FE75D0 /* AppDelegate.swift */,
 				8C5EC39923406FF400FE75D0 /* ViewController.swift */,
 				8C5EC39B23406FF400FE75D0 /* Main.storyboard */,
+				8C04564123450E4800719465 /* StartingScreen.swift */,
+				8C045647234510B900719465 /* MainScreen.swift */,
+				8C5EC3C823428B4A00FE75D0 /* Officers.swift */,
 				8C5EC3A123406FF500FE75D0 /* Assets.xcassets */,
 				8C5EC3A323406FF500FE75D0 /* LaunchScreen.storyboard */,
 				8C5EC3A623406FF500FE75D0 /* Info.plist */,
@@ -259,8 +268,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8C045648234510B900719465 /* MainScreen.swift in Sources */,
 				8C5EC3A023406FF400FE75D0 /* Centura_FBLA.xcdatamodeld in Sources */,
 				8C5EC39A23406FF400FE75D0 /* ViewController.swift in Sources */,
+				8C04564223450E4800719465 /* StartingScreen.swift in Sources */,
+				8C5EC3C923428B4A00FE75D0 /* Officers.swift in Sources */,
 				8C5EC39823406FF400FE75D0 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
