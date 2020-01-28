@@ -18,6 +18,10 @@
 		8C5EC3B023406FF500FE75D0 /* Centura_FBLATests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C5EC3AF23406FF500FE75D0 /* Centura_FBLATests.swift */; };
 		8C5EC3BB23406FF500FE75D0 /* Centura_FBLAUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C5EC3BA23406FF500FE75D0 /* Centura_FBLAUITests.swift */; };
 		8C5EC3C923428B4A00FE75D0 /* Officers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C5EC3C823428B4A00FE75D0 /* Officers.swift */; };
+		8CC6CEF523E0746600D44E1A /* About.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CC6CEF423E0746600D44E1A /* About.swift */; };
+		8CC6CEF723E074C900D44E1A /* Contact.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CC6CEF623E074C900D44E1A /* Contact.swift */; };
+		8CC6CEF923E074D600D44E1A /* QandA.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CC6CEF823E074D600D44E1A /* QandA.swift */; };
+		8CC6CEFB23E0754000D44E1A /* Competitive.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CC6CEFA23E0754000D44E1A /* Competitive.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +59,10 @@
 		8C5EC3BA23406FF500FE75D0 /* Centura_FBLAUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Centura_FBLAUITests.swift; sourceTree = "<group>"; };
 		8C5EC3BC23406FF500FE75D0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8C5EC3C823428B4A00FE75D0 /* Officers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Officers.swift; sourceTree = "<group>"; };
+		8CC6CEF423E0746600D44E1A /* About.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = About.swift; sourceTree = "<group>"; };
+		8CC6CEF623E074C900D44E1A /* Contact.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Contact.swift; sourceTree = "<group>"; };
+		8CC6CEF823E074D600D44E1A /* QandA.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QandA.swift; sourceTree = "<group>"; };
+		8CC6CEFA23E0754000D44E1A /* Competitive.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Competitive.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,7 +116,11 @@
 				8C5EC39723406FF400FE75D0 /* AppDelegate.swift */,
 				8C5EC39923406FF400FE75D0 /* ViewController.swift */,
 				8C5EC39B23406FF400FE75D0 /* Main.storyboard */,
+				8CC6CEFA23E0754000D44E1A /* Competitive.swift */,
+				8CC6CEF623E074C900D44E1A /* Contact.swift */,
+				8CC6CEF823E074D600D44E1A /* QandA.swift */,
 				8C04564123450E4800719465 /* StartingScreen.swift */,
+				8CC6CEF423E0746600D44E1A /* About.swift */,
 				8C045647234510B900719465 /* MainScreen.swift */,
 				8C5EC3C823428B4A00FE75D0 /* Officers.swift */,
 				8C5EC3A123406FF500FE75D0 /* Assets.xcassets */,
@@ -270,10 +282,14 @@
 			files = (
 				8C045648234510B900719465 /* MainScreen.swift in Sources */,
 				8C5EC3A023406FF400FE75D0 /* Centura_FBLA.xcdatamodeld in Sources */,
+				8CC6CEF523E0746600D44E1A /* About.swift in Sources */,
 				8C5EC39A23406FF400FE75D0 /* ViewController.swift in Sources */,
+				8CC6CEF723E074C900D44E1A /* Contact.swift in Sources */,
 				8C04564223450E4800719465 /* StartingScreen.swift in Sources */,
+				8CC6CEF923E074D600D44E1A /* QandA.swift in Sources */,
 				8C5EC3C923428B4A00FE75D0 /* Officers.swift in Sources */,
 				8C5EC39823406FF400FE75D0 /* AppDelegate.swift in Sources */,
+				8CC6CEFB23E0754000D44E1A /* Competitive.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
